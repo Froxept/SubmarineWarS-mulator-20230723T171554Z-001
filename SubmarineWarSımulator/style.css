@@ -1,0 +1,49 @@
+#chart-container{
+    height: 90vmin;
+    width: 95vmin;
+    margin-top: 30px;
+    margin-left: 10px;
+    float: left;
+}
+#form{
+    float: left;
+    text-align: center;
+    margin-left: 35vmin;
+    margin-top: 35vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{ background-color: rgb(180, 171, 171);}
+
+.decide {
+    position: absolute;
+    background-color: rgb(78, 81, 83);
+    color: whitesmoke;
+    border: red;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 150px;
+    height: 30px;
+
+}
+.plot {
+    position: absolute;
+    background-color: rgb(78, 81, 83);
+    color: whitesmoke;
+    border: red;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 150px;
+    height: 30px;
+
+}
+#submarine-text {
+    color: rgb(95, 49, 60);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family:fantasy;
+}

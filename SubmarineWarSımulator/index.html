@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="data.js"></script>
+    <script src="config.js"></script>
+    <title>Submarine War Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <marquee width="100%" id="submarine-text"><ion-icon name="warning-outline"></ion-icon>Submarine Torpedo System<ion-icon name="warning-outline"></ion-icon></marquee>
+    <div id="chart-container">
+        <canvas id="chart"></canvas>
+    </div>
+    <div id="form">
+        <span>Distance value(x) <input type="text" id="distance"></span><br><br>
+        <span>Depth value(y) <input type="text" id="depth"></span><br><br>
+        <span>Input test point:  <button id="plot" class="plot">
+            <span class="plotText">Plot New Data</span>
+            <span class="plotIcon"><ion-icon name="enter-outline"></ion-icon></span>
+        </button>
+        
+        </span><br><br><br>
+
+        <span>Predict Output:  <button id="decide" class="decide">
+            <span class="decideText">Decide</span>
+            <span class="decideIcon"><ion-icon name="skull-outline"></ion-icon></ion-icon></span>
+        </button></span><br><br><br>
+        <span>Output:  <span id="output"></span></span><br><br>
+    </div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script src="script.js"></script>
+</html>
